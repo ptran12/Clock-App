@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: url("./wallpaper.wiki-Desktop-Clock-HD-photos-time-PIC-WPD009133.jpg") center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .main {
@@ -23,6 +32,7 @@
     position: absolute;
     top: -15px;
     left: 40%;
+    text-align: center;
 }
 
 .clock {
@@ -30,5 +40,7 @@
     text-align: center;
     font-size: 55px;
     height: 100%;
-
+    padding-top: 35px;
+    font-family: Orbitron;
+    border-radius: 4px;
 }
