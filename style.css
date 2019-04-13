@@ -8,7 +8,8 @@
 }
 
 body {
-    background: url("./wallpaper.wiki-Desktop-Clock-HD-photos-time-PIC-WPD009133.jpg") center center fixed;
+    /* background: url("./wallpaper.wiki-Desktop-Clock-HD-photos-time-PIC-WPD009133.jpg") center center fixed; */
+    background-color: #222831;
     -webkit-background-size: cover;
     background-size: cover;
 }
